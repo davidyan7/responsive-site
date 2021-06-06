@@ -85,8 +85,6 @@
         
         .btn-menu {
             margin-right: 5%;
-            width: 35px;
-            height: 35px;
         }
         
         .main-nav li {
@@ -127,6 +125,7 @@
             display: flex;
             flex-wrap: wrap;
             font-family: Lato-Regular, sans-serif;
+            padding: 5px;
         }
         
         .card-text-container {
@@ -259,7 +258,7 @@
         
         @media (max-width: 740px) {
             .main-layout {
-                max-width: 700px;
+                max-width: 500px;
             }
             .main-nav {
                 position: fixed;
@@ -304,6 +303,7 @@
             .card {
                 display: flex;
                 align-items: center;
+                margin-right: 40px;
             }
             .main-layout {
                 max-width: 700px;
@@ -318,9 +318,11 @@
                 height: 131px;
                 justify-content: space-evenly;
             }
-            .card-image {
-                height: 250px;
-                margin-right: 40px;
+            img {
+                height: 100%;
+                width: 50%;
+                object-fit: cover;
+                margin-right: 50px;
             }
             .card-text {
                 margin-top: 7px;
@@ -332,6 +334,7 @@
                 font-size: 1.25em;
             }
             .card-text-container {
+                height: 100%;
                 flex-wrap: wrap;
             }
             .btn-menu {
@@ -349,9 +352,13 @@
             .cards-container>:last-child {
                 margin-bottom: 4.875rem;
             }
-            .card-image {
+            .card {
                 height: 308px;
                 margin-right: 40px;
+            }
+            .card-text-container {
+                height: 100%;
+                flex-wrap: wrap;
             }
             .card-text {
                 margin-top: 3.625em;
