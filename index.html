@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogin </title>
+    <link rel="stylesheet" href="/styles/styles.css">
+</head>
+
+<body>
+    <div class="main-screen" onclick="toggleMenu()"></div>
+    <div class="header-layout">
+        <header class="main-header main-layout flex space-between align-center">
+            <div class="logo">Blogin<span class="header-span">.</span></div>
+            <ul class="main-nav clean-list flex">
+                <li><a href="#">Journal</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Work</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <button class="btn-menu" onclick="toggleMenu()">☰</button>
+
+        </header>
+    </div>
+
+    <main class="main-content main-layout cards-container ">
+
+        <div class="card">
+            <img src="/img/001.png" alt="" class="card-image" />
+            <div class="card-text-container flex .flex.direction">
+                <h2 class="card-title">Duis aute irure dolor in henderit in voluptate.</h2>
+                <p class="card-text ">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commo doconsequat, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur...
+                </p>
+                <!-- <button class="card-read">Continue Reading </button> -->
+                <a class="card-read" href=" # ">Continue Reading</a>
+
+            </div>
+
+        </div>
+
+        <div class="card">
+            <img src="/img/002.png " alt=" " class="card-image " />
+            <div class="card-text-container flex .flex.direction ">
+                <h2 class="card-title ">Duis aute irure dolor in henderit in voluptate.</h2>
+                <p class="card-text ">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commo doconsequat, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur...
+                </p>
+                <a class="card-read" href=" # ">Continue Reading</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="/img/003.png " alt=" " class="card-image " />
+            <div class="card-text-container flex .flex.direction ">
+                <h2 class="card-title ">Duis aute irure dolor in henderit in voluptate.</h2>
+                <p class="card-text ">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commo doconsequat, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur...
+                </p>
+                <a class="card-read" href=" # ">Continue Reading</a>
+            </div>
+        </div>
+
+    </main>
+
+    <section class="move-page ">
+        <div class="move-page-container main-layout flex space-between align-center ">
+            <a class="previous " href="# ">← Previous</a>
+            <a class="next " href="# ">Next →</a>
+        </div>
+    </section>
+
+    <footer class="main-footer ">
+        <div class="footer-container main-layout flex space-between align-center ">
+            <h3>Blogin<span class="header-span ">.</span></h3>
+            <small>© 2014 Blogin.com - All Rights Reserved - Find more free Templates at Pixelhint.com</small>
+            <span class="social-container ">
+                <ul class="social-nav flex ">
+                    <li><a href="# " class="facebook "><img src="/img/face .jpg " alt=" " class="logo-image " /></a>
+                    </li>
+                    <li><a href="# " class="twitter "><img src="/img/twit copy.jpg " alt=" " class="logo-image " /></a>
+                    </li>
+                    <li><a href="# " class="instagram "><img src="/img/insta copy.png " alt=" "
+                                class="logo-image " /></a>
+                    </li>
+                </ul>
+            </span>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            document.body.classList.toggle('menu-open');
+        }
+    </script>
+</body>
+
+</html>
